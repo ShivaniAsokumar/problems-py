@@ -93,7 +93,7 @@ def split_digit(digits):
 def count_and_say(n):
     count_str = ""
     if (n == 1):
-        return split_digit(str(n))
+        return "1"
 
     else:   
         # digit_array = split_digit(str(n - 1 )) # Convert n to str because split_digit() only takes string args
@@ -105,7 +105,7 @@ def count_and_say(n):
     return count_str
 
 
-print(count_and_say(5))
+print(count_and_say(1))
 
 
 
